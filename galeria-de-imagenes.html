@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Galeria de imagenes</title>
+			<style>
+		
+				body {
+				background-image: url('https://i.pinimg.com/originals/76/bd/6f/76bd6f870c45ab4632371c12f1851e66.gif');
+				no-repeat center center fixed;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+				}
+
+				h1 {
+				color: darkcyan;
+				text-align: center;
+				font-size:5em;
+				}
+
+				/*Estilos de la galeria*/
+
+				.galeria {
+				width: 90%;
+				margin: auto;
+				list-style: none;
+				padding: 20px;
+				box-sizing: border-box;
+		
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-around;
+				}
+
+				.galeria li {
+				margin: 5px;
+				}
+
+				.galeria img {
+				width: 150px;
+				height: 100px;
+				}
+
+				/*Estilos del modal*/
+
+				.modal {
+				display: none;
+				}
+
+				.modal:target {
+		
+				display: block;
+				position: fixed;
+				background: rgba(0,0,0,0.8);
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				}
+
+				.modal h3 {
+				color: #fff;
+				font-size: 30px;
+				text-align: center;
+				margin: 15px 0;
+				}
+
+				.imagen {
+				width: 100%;
+				height: 50%;
+		
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				}
+
+				.imagen a {
+				color: #fff;
+				font-size: 40px;
+				text-decoration: none;
+				margin: 0 10px;
+				}
+
+				.imagen a:nth-child(2) {
+					margin: 0;
+					height: 100%;
+					flex-shrink: 2;
+				}
+
+				.imagen img {
+					width: 500px;
+					height: 100%;
+					max-width: 100%;
+					border: 7px solid #fff;
+					box-sizing: border-box;
+				}
+
+				.cerrar {
+					display: block;
+					background: #fff;
+					width: 25px;
+					height: 25px;
+					margin: 15px auto;
+					text-align: center;
+					text-decoration: none;
+					font-size: 25px;
+					color: #000;
+					padding: 5px;
+					border-radius: 50%;
+					line-height: 25px;
+				}
+			</style>
+	</head>
+<body>
+	
+		<ul>
+			<li><a href="./Index.html">Home</a></li>
+			<li><a href="./Sitio.html">Sitio</a></li>
+			<li><a href="./Galeria-de-imagenes.html">Galeria de imagenes</a></li>
+			<li><a href="./Autor.html">Autor</a></li>
+			<li><a href="./Contacto.html">Contacto</a></li>
+		</ul>
+	
+	
+	
+	<h1>Galería de imágenes</h1>
+	
+	<ul class="galeria">
+		<li><a href="#img1"><img src="https://www.efeverde.com/storage/2016/04/delfines-pareja-465x310.jpg"></a></li>
+		<li><a href="#img2"><img src="https://ep00.epimg.net/sociedad/imagenes/2013/08/07/actualidad/1375888108_609481_1375888238_noticia_normal.jpg"></a></li>
+		<li><a href="#img3"><img src="https://cdn.vallarta-adventures.com/sites/default/files/2018-06/Informaci%C3%B3n%20sobre%20de%20Delfines%20para%20Ni%C3%B1os_0.jpeg"></a></li>
+		<li><a href="#img4"><img src="https://i.blogs.es/a2801b/delfines-prohibidos-espectaculos-tarapias-ciudad-de-mexico/450_1000.jpg"></a></li>
+		<li><a href="#img4"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY3N-LdJuTCFftP8oMdPBdb5t1iOYSwU1BZQ&usqp=CAU"></a></li>
+		<li><a href="#img4"><img src="https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Science/animals/Images_for_sliders/Images_for_sliders/Delfin/Delfin4.jpg"></a></li>
+		<li><a href="#img4"><img src="http://planetafeliz.cl/wp-content/uploads/2013/09/Delfines-hermosos.jpg"></a></li>
+		<li><a href="#img4"><img src="https://www.tekcrispy.com/wp-content/uploads/2017/09/Delfines-640x360.jpg"></a></li>
+		<li><a href="#img4"><img src="https://s1.1zoom.me/prev2/517/Dolphins_Evening_Jump_Spray_516945_225x225.jpg"></a></li>
+		<li><a href="#img4"><img src="https://i.pinimg.com/originals/ff/23/cc/ff23ccafeaca2facfadbf34ae85c8721.jpg"></a></li>
+		<li><a href="#img4"><img src="https://i.pinimg.com/236x/db/a6/70/dba6703ede115c4f034b6e1dfab3d5af.jpg"></a></li>
+		<li><a href="#img4"><img src="https://images.alphacoders.com/277/thumb-1920-277061.jpg"></a></li>
+		<li><a href="#img4"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQOOtXCk48qqfHZls_NU6xsvKcUnqdPMXksA&usqp=CAU"></a></li>
+		<li><a href="#img4"><img src="https://www.eluniverso.com/sites/default/files/styles/powgallery_1024/public/fotos/2019/06/dolphin-3730716_960_720.jpg?itok=ft5ecq0Z"></a></li>
+		
+	</ul>
+
+	
+</body>
+</html>
